@@ -7,21 +7,25 @@
     <title>Wilson's Frontend Goals</title>
 </head>
 <body>
-    <h1 class="header-1">
-        Hello there &#128513;  &#128075;     
-    </h1>
-
-    <h2>Slack name: <span data-testid ='slackDisplayName'> Wilson Tomisin</span></h2>
-    <h2>Slack email:<span data-testid ='slackEmail'> tommywilson972@gmail.com</span></h2>
-
-    <div class="container">
-        <div class="image-container">
-            <img src="./asset/image.jpg" alt="profile pic" data-testid="slackProfilePicture">
-        </div>
-        <div class="goals-section">
-            <h2>My Front-End goals for <span>2 years</span></h2>
+   <nav>
+        <h1 class="header-1">
+            Hello there  &#128075;     
+        </h1>
+        <div>
             <p>Time: <span id="time" data-testid="currentTimeUTC"></span></p>
             <p>Day of the week: <span id="day" data-testid="currentDay"></span></p>
+        </div>
+
+   </nav>
+
+    <p class="intro">Good day friends my name is <span data-testid ='slackDisplayName'> Wilson Tomisin</span>
+        <!-- <h2 data-testid ='slackEmail'> tommywilson972@gmail.com</h2> -->i am a front end developer passionate about creating beautiful websites . This simple web page was created to simply highlight my front end goals for the next 2 years.
+    </p>
+
+    <div class="container">
+        <div class="goals-section">
+            <h2> Goals for <span>2 years</span></h2>
+            
 
             <ul class="goal-list">
                 <li>&#127919; Land a remote international Job</li>
@@ -31,20 +35,24 @@
                 <li>&#127919;explore different web development technologies</li>
             </ul>
         </div>
-       
+        <div class="image-container">
+            <img src="./asset/image.jpg" alt="profile pic" data-testid="slackProfilePicture">
+        </div>
     </div>
-    <h3>Some usefuls links</h3>
-    <ul class="footer-links">
-        <li>
-            <a href="http://hng.tech/learn" target="_blank" data-testid="hngLink">Learn about hng</a>
-        </li>
-        <li>
-            <a href="http://keyword.dog/" target="_blank" data-testid="keywordLink">Keyword info</a>
-        </li>
-        <li>
-            <a href="http://scrapeanyweb.site/" target="_blank" data-testid="scrapeanywebLink">Scrape any web</a>
-        </li>
-    </ul>
+    <footer>
+        <h3>Some usefuls links</h3>
+        <ul class="footer-links">
+            <li>
+                <a href="http://hng.tech/learn" target="_blank" data-testid="hngLink">Learn about hng</a>
+            </li>
+            <li>
+                <a href="http://keyword.dog/" target="_blank" data-testid="keywordLink">Keyword info</a>
+            </li>
+            <li>
+                <a href="http://scrapeanyweb.site/" target="_blank" data-testid="scrapeanywebLink">Scrape any web</a>
+            </li>
+        </ul>
+    </footer>
 </body>
 <script src="./script.js"></script>
 </html>

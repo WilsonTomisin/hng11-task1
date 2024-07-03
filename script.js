@@ -12,6 +12,6 @@ let day ;
 let weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 let dayOfWeek = weekdays[now.getUTCDay()];
 
-utcTime.innerHTML = `${year}-${month}-${dayIndex}  ;  ${hours}:${minutes}pm`
+utcTime.innerHTML = `${hours}:${minutes}Z`
 dayOfTheWeek.innerText = dayOfWeek
 
